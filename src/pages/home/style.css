@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+.home--Main{
+    width: 364px;
+    margin-top: 50px;
+    padding:40px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - 202px);
+    top: calc(50% - 300px);
+}
+
+.home--Main--title{
+    font-family: Poppins, Arial;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.home--Main--projects{
+    font-family: Poppins, Arial;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.home--Main--projects:hover{
+    cursor: pointer;
+}
+
+.home--link{
+    text-decoration: none;
+    color: black;
+}

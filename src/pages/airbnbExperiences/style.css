@@ -1,0 +1,136 @@
+/* body{
+    background-color: #ebebeb;
+} */
+
+.airbnb--container{
+    margin-top: 15px;
+    width: 418px;
+    height: 646px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    left: calc(50% - 209px);
+    top: calc(50% - 340px);
+}
+
+.airbnb--Navbar{
+    height: 53.20px;
+    box-shadow: 0px 3px 7.46px rgba(0, 0, 0, 0.10);
+}
+
+.airbnb--Nav--icon{
+    padding-top: 16.72px;
+    padding-left: 22.80px;
+    width: 62.32px;
+}
+
+.airbnb--hero--image{
+    width: 300.89px;
+    padding-top: 19.76px;
+    padding-left: 58.52px;
+    padding-bottom: 15px;
+}
+
+.airbnb--hero--title{
+    font-family: Poppins, Arial;
+    font-weight: 600;
+    font-size: 27.36px;
+    color: black;
+    padding-left: 27.36px;
+    padding-bottom: 5.16px;
+}
+
+.airbnb--hero--description{
+    max-width: 250px;
+    font-family: Poppins, Arial;
+    font-weight: 300;
+    font-size: 12.16px;
+    color: #222222;
+    padding-left: 27.36px;
+    line-height: 13.376px;
+}
+
+.airbnb--Bottom{
+    padding-top: 37.24px;
+    padding-left: 28.12px;
+    display: flex;
+    flex-direction: row;
+    gap: 13.68px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.airbnb--Bottom::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.airbnb--Card{
+    position: relative;
+}
+
+.airbnb--Card--img{
+    width: 133.76px;
+    border-radius: 5px;
+}
+
+.airbnb--Card--rating-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.airbnb--Card--price-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.airbnb--Card--rating,
+.airbnb--Card--title,
+.airbnb--Card--price-row{
+    font-family: Poppins, Arial;
+    font-weight: 300;
+    font-size: 9.12px;
+    color: #222222;
+}
+
+.airbnb--Card--rating{
+    padding-right: 2px;
+}
+
+.airbnb--Card--moreInfo{
+    font-family: Poppins, Arial;
+    font-weight: 300;
+    font-size: 9.12px;
+    color: #918E9B;
+}
+
+.airbnb--Card--price{
+    padding-right: 2px;
+    font-weight: 600;
+}
+
+.airbnb--Card--star{
+    width: 9px;
+    padding-right: 2px;
+    margin-top: -2px;
+}
+
+.airbnb--Card--status{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 1px;
+
+    display: inline-block;
+    font-family: Poppins, Arial;
+    font-weight: 400;
+    font-size: 7.7824px;
+    padding: 1px 3.8px 1px 3.8px;
+    background-color: #FFFFFF;
+}
+
+.airbnb--Card--status:empty{
+    display: none;
+}

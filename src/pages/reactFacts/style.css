@@ -1,0 +1,77 @@
+/* body{
+    background-color: #282D35;
+} */
+
+.rf--main-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #282D35;
+}
+
+.rf--nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 30px 25px;
+}
+
+.rf--Nav--icon{
+    width: 30px;
+    margin-right: 7px;
+}
+
+.rf--Nav--logo-text{
+    font-family: Inter, Arial;
+    font-weight: 700;
+    color: #61DAFB;
+    font-size: 22.25px;
+    margin-right: auto;
+}
+
+.rf--Nav--title{
+    font-family: Inter, Arial;
+    font-weight: 600;
+    color: #DEEBF8;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+
+.rf--main{
+    background-color: #282D35;
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 130px;
+    background-size: 150px;
+}
+
+.rf--Main--title{
+    font-family: Inter, Arial;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 39px;
+
+    padding-top: 57px;
+    padding-left: 27px;
+    padding-right: auto;
+    padding-bottom: 26px;
+}
+
+.rf--ul{
+    padding-left: 75px;
+}
+
+.rf--ul > li::marker{
+    font-size: 1.4rem;
+    color:#61DAFB;
+}
+
+.rf--li{
+    max-width: 400px;
+    font-family: Inter, Arial;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-top: 20px;
+}
