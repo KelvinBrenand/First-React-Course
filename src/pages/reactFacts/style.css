@@ -1,7 +1,3 @@
-/* body{
-    background-color: #282D35;
-} */
-
 .rf--main-div{
     height: 100vh;
     width: 100vw;
@@ -54,12 +50,12 @@
 
     padding-top: 57px;
     padding-left: 27px;
-    padding-right: auto;
     padding-bottom: 26px;
 }
 
 .rf--ul{
     padding-left: 75px;
+    padding-bottom: 100px;
 }
 
 .rf--ul > li::marker{
