@@ -1,0 +1,111 @@
+.travel--container{
+    width: 500px;
+    height: 640px;
+    background-color: #FFFFFF;
+
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 320px);
+}
+.travel--Navbar{
+    height: 50px;
+    background-color: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 8.19px;
+}
+.world--Nav--icon{
+    width: 21.84px;
+}
+
+.world--Nav--Text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+
+    color: #FFFFFF;
+}
+
+.travel--Card{
+    padding-top: 32.76px;
+    padding-left: 36.4px;
+    display: flex;
+    flex-direction: row;
+    gap: 17.29px;
+}
+
+.travel--Card--img{
+    object-fit: cover;
+    width: 113.75px;
+    height: 152.88px;
+    border-radius: 5px;
+}
+
+.travel--Card-info{
+    padding-top: 12px;
+}
+
+.travel--Card-firstRow{
+    display: flex;
+    align-items: center;
+}
+
+.travel--Card--map{
+    width: 7px;
+}
+
+.travel--Card--location{
+    padding-left: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+a{
+    padding-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #918E9B;
+}
+
+.travel--Card--title{
+    padding-top: 8px;
+    padding-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.75px;
+
+    color: #2B283A;
+}
+
+.travel--Card--date{
+    padding-bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.travel--Card--description{
+    width: 297px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.3184px;
+    line-height: 150%;
+
+    color: #2B283A;
+}

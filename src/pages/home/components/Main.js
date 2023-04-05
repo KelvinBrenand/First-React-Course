@@ -14,6 +14,9 @@ export default function Main(){
             <Link className="home--link" to="/airbnbexperiences">
                 <div className="home--Main--projects"> Airbnb Experiences</div>
             </Link>
+            <Link className="home--link" to="/traveljournal">
+                <div className="home--Main--projects"> Travel Journal</div>
+            </Link>
         </main>
     )
 }
