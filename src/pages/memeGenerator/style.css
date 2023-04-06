@@ -1,0 +1,118 @@
+.meme--main-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+.meme--nav{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    padding-right: 25px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.meme--Nav--icon{
+    width: 31.31px;
+    margin-right: 7.2px;
+}
+
+.meme--Nav--logo-text{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20.7482px;
+    margin-right: auto;
+}
+
+.meme--Nav--title{
+    font-family: Inter, Arial;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.meme--form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    gap: 15px;
+    color: #D5D4D8;
+
+    margin-left: 36px;
+    margin-right: 36px;
+
+}
+
+.meme--form-inputs{
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #0D0D0D;
+}
+
+.meme--form-inputs:focus {
+    outline-width: 0;
+}
+
+#input1{
+    margin-right: 17px;
+}
+
+.meme--form-button{
+    width: 505px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    padding-bottom: 5px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+.meme--form-frame{
+    padding-left: 5px;
+    width: 20px;
+}
+
+@media (max-width: 580px){
+    .meme--form-inputs{
+        width: 188.67px;
+    }
+    .meme--form-button{
+        width: 422.31px;
+    }
+}
+
+.meme--form-button:hover{
+    color: #ffffff;
+}
+
+.meme--form-img{
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 500px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}

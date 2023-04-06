@@ -17,6 +17,9 @@ export default function Main(){
             <Link className="home--link" to="/traveljournal">
                 <div className="home--Main--projects"> Travel Journal</div>
             </Link>
+            <Link className="home--link" to="/memegenerator">
+                <div className="home--Main--projects"> Meme Generator</div>
+            </Link>
         </main>
     )
 }

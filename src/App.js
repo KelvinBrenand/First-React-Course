@@ -6,6 +6,7 @@ import ReactFacts from "./pages/reactFacts/ReactFacts.js"
 import DigitalBusinessCard from "./pages/digitalBusinessCard/DigitalBusinessCard.js"
 import AirbnbExperiences from "./pages/airbnbExperiences/AirbnbExperiences.js"
 import TravelJournal from "./pages/travelJournal/TravelJournal.js"
+import MemeGenerator from "./pages/memeGenerator/MemeGenerator.js"
 
 export default function App(){
     return(
@@ -16,6 +17,7 @@ export default function App(){
                 <Route path='/digitalbusinesscard' element={<DigitalBusinessCard />} />
                 <Route path='/airbnbexperiences' element={<AirbnbExperiences />} />
                 <Route path='/traveljournal' element={<TravelJournal />} />
+                <Route path='/memegenerator' element={<MemeGenerator />} />
             </Routes>
         </Router>
     )
