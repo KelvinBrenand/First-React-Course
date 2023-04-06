@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/First-React-Course/static/css/main.eef279e8.css",
-    "main.js": "/First-React-Course/static/js/main.12a5fc3f.js",
+    "main.css": "/First-React-Course/static/css/main.621ae9e7.css",
+    "main.js": "/First-React-Course/static/js/main.6c518f83.js",
     "static/media/collage.png": "/First-React-Course/static/media/collage.92c87f4d21de1b7d760d.png",
     "static/media/Laura-Smith.png": "/First-React-Course/static/media/Laura-Smith.bb0e6df468d83303f80e.png",
     "static/media/zaferes.png": "/First-React-Course/static/media/zaferes.aaef7d2197a1f4dc1b95.png",
     "static/media/bike.png": "/First-React-Course/static/media/bike.960f654fdde725a91445.png",
     "static/media/wedding.png": "/First-React-Course/static/media/wedding.e100daf4d6f977ad08eb.png",
+    "static/media/tf.svg": "/First-React-Course/static/media/tf.2f71347e2cd5f3aa5c795c6688c5cd83.svg",
     "static/media/airbnb-icon.svg": "/First-React-Course/static/media/airbnb-icon.cbc1c3f9fe4a97d3ee44b33901a7a9e2.svg",
     "static/media/instagram.svg": "/First-React-Course/static/media/instagram.3c50417ccebcf2d64188425c0561419e.svg",
     "static/media/github.svg": "/First-React-Course/static/media/github.f6bfc2c2cde96d90ec8317b951ec7f59.svg",
     "static/media/world.svg": "/First-React-Course/static/media/world.cd05695165c0f2535f26f429b387dc74.svg",
+    "static/media/frame.svg": "/First-React-Course/static/media/frame.79da02db2975a5601fde4afb365a92dd.svg",
     "static/media/twitter.svg": "/First-React-Course/static/media/twitter.d4f2bf6d8671dff888830735da01b95c.svg",
     "index.html": "/First-React-Course/index.html",
     "static/media/linkedin.svg": "/First-React-Course/static/media/linkedin.16942bd590e1aa6dd0db7b5b2d668561.svg",
@@ -18,11 +20,11 @@
     "static/media/facebook.svg": "/First-React-Course/static/media/facebook.2ab2e23893dc0656d11fbd5244228586.svg",
     "static/media/mail.svg": "/First-React-Course/static/media/mail.75245445b9cb2b54a9b059e5955a76c9.svg",
     "static/media/map.svg": "/First-React-Course/static/media/map.258dfa6b258e18561c427ad62d714064.svg",
-    "main.eef279e8.css.map": "/First-React-Course/static/css/main.eef279e8.css.map",
-    "main.12a5fc3f.js.map": "/First-React-Course/static/js/main.12a5fc3f.js.map"
+    "main.621ae9e7.css.map": "/First-React-Course/static/css/main.621ae9e7.css.map",
+    "main.6c518f83.js.map": "/First-React-Course/static/js/main.6c518f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.eef279e8.css",
-    "static/js/main.12a5fc3f.js"
+    "static/css/main.621ae9e7.css",
+    "static/js/main.6c518f83.js"
   ]
 }
