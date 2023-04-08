@@ -95,6 +95,15 @@
     width: 20px;
 }
 
+.meme--form-button:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.meme--form-button:active{
+    filter: brightness(80%);
+}
+
 @media (max-width: 580px){
     .meme--form-inputs{
         width: 188.67px;
@@ -102,10 +111,6 @@
     .meme--form-button{
         width: 422.31px;
     }
-}
-
-.meme--form-button:hover{
-    color: #ffffff;
 }
 
 .meme--form-img{
