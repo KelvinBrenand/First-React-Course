@@ -121,3 +121,32 @@
     width: auto;
     height: auto;
 }
+
+.meme--form-img-div{
+    position: relative;
+    text-align:center;
+}
+
+.meme--form-topText{
+    position: absolute;
+    font-family: Impact;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+    color: white;
+    top: 20px;
+    width: 100%;
+    left: 0px;
+}
+
+.meme--form-bottomText{
+    position: absolute;
+    font-family: Impact;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+    color: white;
+    bottom: 5px;
+    width: 100%;
+    left: 0px;
+}
