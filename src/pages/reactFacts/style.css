@@ -1,14 +1,30 @@
-.rf--main-div{
+.rf--main-div-Dark{
     height: 100vh;
     width: 100vw;
+    background-color: #282D35;
 }
 
-.rf--nav{
+.rf--main-div-Light{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+.rf--nav-Light{
     display: flex;
     align-items: center;
     padding: 30px 25px;
     position: relative;
-    z-index: 80;
+    background-color:#FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rf--nav-Dark{
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+    position: relative;
+    background-color:#21222A;
 }
 
 .rf--Nav--icon{
@@ -28,11 +44,24 @@
     position: relative;
 }
 
-.rf--main{
+.rf--main-Dark{
+    background-image: url(./images/dark-react-icon-large.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 130px;
     background-size: 150px;
+    background-color: #282D35;
+    color: #FFFFFF;
+}
+
+.rf--main-Light{
+    background-image: url(./images/light-react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 130px;
+    background-size: 150px;
+    background-color: #FFFFFF;
+    color: #2B283A;
 }
 
 .rf--Main--title{
@@ -72,24 +101,56 @@
     font-weight: 600;
     font-size: 14px;
     align-items: center;
-    position: absolute;
-    top: 35px;
-    right: 35px;
-    z-index: 100;
 }
 
 .darkmode:hover{
     cursor: pointer;
 }
 
-.darkmode-square{
+#rf--nav-Lighttext-Light{
+    color:#2B283A;
+}
+
+#rf--nav-Lighttext-Dark{
+    color:#918E9B;
+}
+
+#rf--nav-Darktext-Light{
+    color:#D5D4D8;
+}
+
+#rf--nav-Darktext-Dark{
+    color:#FFFFFF;
+}
+
+.rf--nav-darkmode-square-Light{
+    background-color:#2B283A;
     width: 30px;
     height: 18px;
     border-radius: 12px;
     position: relative;
 }
 
-.darkmode-circle{
+.rf--nav-darkmode-square-Dark{
+    background-color:#F5F5F5;
+    width: 30px;
+    height: 18px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.rf--nav-darkmode-circle-Light{
+    background-color:#FFFFFF;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: 1px;
+    border-radius: 8px;
+}
+
+.rf--nav-darkmode-circle-Dark{
+    background-color:#222222;
     position: absolute;
     width: 16px;
     height: 16px;
