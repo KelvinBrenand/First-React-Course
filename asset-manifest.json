@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/First-React-Course/static/css/main.7622dbb6.css",
-    "main.js": "/First-React-Course/static/js/main.5dac7435.js",
+    "main.css": "/First-React-Course/static/css/main.ec999f5e.css",
+    "main.js": "/First-React-Course/static/js/main.6749327c.js",
     "static/media/collage.png": "/First-React-Course/static/media/collage.92c87f4d21de1b7d760d.png",
     "static/media/Laura-Smith.png": "/First-React-Course/static/media/Laura-Smith.bb0e6df468d83303f80e.png",
     "static/media/zaferes.png": "/First-React-Course/static/media/zaferes.aaef7d2197a1f4dc1b95.png",
@@ -20,11 +20,11 @@
     "static/media/facebook.svg": "/First-React-Course/static/media/facebook.2ab2e23893dc0656d11fbd5244228586.svg",
     "static/media/mail.svg": "/First-React-Course/static/media/mail.75245445b9cb2b54a9b059e5955a76c9.svg",
     "static/media/map.svg": "/First-React-Course/static/media/map.258dfa6b258e18561c427ad62d714064.svg",
-    "main.7622dbb6.css.map": "/First-React-Course/static/css/main.7622dbb6.css.map",
-    "main.5dac7435.js.map": "/First-React-Course/static/js/main.5dac7435.js.map"
+    "main.ec999f5e.css.map": "/First-React-Course/static/css/main.ec999f5e.css.map",
+    "main.6749327c.js.map": "/First-React-Course/static/js/main.6749327c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7622dbb6.css",
-    "static/js/main.5dac7435.js"
+    "static/css/main.ec999f5e.css",
+    "static/js/main.6749327c.js"
   ]
 }
