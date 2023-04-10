@@ -1,14 +1,14 @@
 .rf--main-div{
     height: 100vh;
     width: 100vw;
-    background-color: #282D35;
 }
 
 .rf--nav{
     display: flex;
     align-items: center;
-    background-color: #21222A;
     padding: 30px 25px;
+    position: relative;
+    z-index: 80;
 }
 
 .rf--Nav--icon{
@@ -24,18 +24,11 @@
     margin-right: auto;
 }
 
-.rf--Nav--title{
-    font-family: Inter, Arial;
-    font-weight: 600;
-    color: #DEEBF8;
-    font-size: 16px;
-    padding-top: 5px;
+.rf--container{
+    position: relative;
 }
 
-
 .rf--main{
-    background-color: #282D35;
-    background-image: url(./images/react-icon-large.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 130px;
@@ -45,7 +38,6 @@
 .rf--Main--title{
     font-family: Inter, Arial;
     font-weight: 700;
-    color: #FFFFFF;
     font-size: 39px;
 
     padding-top: 57px;
@@ -67,7 +59,41 @@
     max-width: 400px;
     font-family: Inter, Arial;
     font-weight: 400;
-    color: #FFFFFF;
     font-size: 16px;
     padding-top: 20px;
+}
+
+.darkmode{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-family:Poppins, Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    z-index: 100;
+}
+
+.darkmode:hover{
+    cursor: pointer;
+}
+
+.darkmode-square{
+    width: 30px;
+    height: 18px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.darkmode-circle{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 12px;
+    top: 1px;
+    border-radius: 8px;
 }

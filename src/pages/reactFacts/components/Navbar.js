@@ -1,12 +1,11 @@
 import React from "react"
 import reactLogo from "../images/react-icon-small.png"
 
-export default function Navbar(){
+export default function Navbar(props){
     return (
-        <nav className="rf--nav">
+        <nav style={props.mode === "Light"? {backgroundColor:"#FFFFFF", boxShadow: "0px 1px 4px rgba(0, 0, 0, 0.25)"}:{backgroundColor:"#21222A"}} className="rf--nav">
             <img src={reactLogo} alt="React Logo" className="rf--Nav--icon" />
             <div className="rf--Nav--logo-text">ReactFacts</div>
-            <div className="rf--Nav--title">React Course - Project 1</div>
         </nav>
     )
 }

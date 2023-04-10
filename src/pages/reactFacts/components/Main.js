@@ -1,8 +1,19 @@
 import React from "react"
 
-export default function Main(){
+export default function Main(props){
+    const lightStyle = {
+        backgroundColor:"#FFFFFF",
+        color:"#2B283A",
+        backgroundImage: 'url('+require('../images/light-react-icon-large.png') +')'
+      }
+    const darkStyle = {
+        backgroundColor:"#282D35",
+        color: "#FFFFFF",
+        backgroundImage: 'url('+require('../images/dark-react-icon-large.png') +')'
+    }
+
     return(
-        <main className="rf--main">
+        <main style={props.mode === "Light" ? lightStyle: darkStyle} className="rf--main">
             <div className="rf--Main--title">Fun facts about React</div>
             <ul className="rf--ul">
                 <li className="rf--li">Was first released in 2013</li>
