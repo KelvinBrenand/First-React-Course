@@ -20,6 +20,9 @@ export default function Main(){
             <Link className="home--link" to="/memegenerator">
                 <div className="home--Main--projects"> Meme Generator</div>
             </Link>
+            <Link className="home--link" to="/notesapp">
+                <div className="home--Main--projects"> Notes App</div>
+            </Link>
         </main>
     )
 }

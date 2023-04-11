@@ -7,6 +7,7 @@ import DigitalBusinessCard from "./pages/digitalBusinessCard/DigitalBusinessCard
 import AirbnbExperiences from "./pages/airbnbExperiences/AirbnbExperiences.js"
 import TravelJournal from "./pages/travelJournal/TravelJournal.js"
 import MemeGenerator from "./pages/memeGenerator/MemeGenerator.js"
+import NotesApp from "./pages/notesApp/App.js"
 
 export default function App(){
     return(
@@ -18,6 +19,7 @@ export default function App(){
                 <Route path='/airbnbexperiences' element={<AirbnbExperiences />} />
                 <Route path='/traveljournal' element={<TravelJournal />} />
                 <Route path='/memegenerator' element={<MemeGenerator />} />
+                <Route path='/notesapp' element={<NotesApp />} />
             </Routes>
         </Router>
     )
