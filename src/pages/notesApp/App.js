@@ -1,18 +1,10 @@
 import React from "react"
-import Sidebar from "./components/Sidebar"
-import Editor from "./components/Editor"
-// import { data } from "./data"
 import Split from "react-split"
 import {nanoid} from "nanoid"
+import Sidebar from "./components/Sidebar"
+import Editor from "./components/Editor"
 import "./style.css"
-
-/**
- * Challenge: Spend 10-20+ minutes reading through the code
- * and trying to understand how it's currently working. Spend
- * as much time as you need to feel confident that you 
- * understand the existing code (although you don't need
- * to fully understand everything to move on)
- */
+// import { data } from "./data"
 
 export default function App() {
     const [notes, setNotes] = React.useState([])
@@ -31,9 +23,7 @@ export default function App() {
     
     function updateNote(text) {
         setNotes(oldNotes => oldNotes.map(oldNote => {
-            return oldNote.id === currentNoteId
-                ? { ...oldNote, body: text }
-                : oldNote
+            return oldNote.id === currentNoteId ? { ...oldNote, body: text }: oldNote
         }))
     }
     
@@ -44,15 +34,9 @@ export default function App() {
     }
     
     return (
-        <main className="notes--main">
-        {
-            notes.length > 0 
-            ?
-            <Split 
-                sizes={[30, 70]} 
-                direction="horizontal" 
-                className="split"
-            >
+        <main className="notes--main">{
+            notes.length > 0 ?
+            <Split sizes={[30, 70]} direction="horizontal" className="split">
                 <Sidebar
                     notes={notes}
                     currentNote={findCurrentNote()}
@@ -62,24 +46,14 @@ export default function App() {
                 {
                     currentNoteId && 
                     notes.length > 0 &&
-                    <Editor 
-                        currentNote={findCurrentNote()} 
-                        updateNote={updateNote} 
-                    />
+                    <Editor currentNote={findCurrentNote()} updateNote={updateNote}/>
                 }
             </Split>
             :
             <div className="no-notes">
                 <h1>You have no notes</h1>
-                <button 
-                    className="first-note" 
-                    onClick={createNewNote}
-                >
-                    Create one now
-                </button>
+                <button className="first-note" onClick={createNewNote}>Create one now</button>
             </div>
-            
-        }
-        </main>
+        }</main>
     )
 }
